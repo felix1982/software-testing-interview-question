@@ -9,7 +9,7 @@
 1. [性能测试问题](#perf-questions)
 1. [算法问题](#algorithm-questions)
 
-## 常见问题
+## <span id = "general-questions">常见问题</span>
 
 * 软件测试的目的是什么？
 * 软件测试的一般流程是怎么样的？
