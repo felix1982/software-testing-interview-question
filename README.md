@@ -10,7 +10,7 @@
 1. [性能测试问题](#perf_questions)
 1. [算法问题](#algorithm_questions)
 
-## <span id="general_questions">常见问题</span>
+## <a name="general_questions">常见问题</a>
 
 * 软件测试的目的是什么？
 * 软件测试的一般流程是怎么样的？
@@ -23,14 +23,14 @@
 * 缺陷的生命周期是怎样的？
 * 你认为做好软件测试应该具备哪些素质？
 
-## <span id="testcase_questions">测试用例设计问题<span>
+## <a name="testcase_questions">测试用例设计问题<a>
 * 测试用例是什么？如何设计有效的测试用例？
 * 输入三个整数,判断是否构成有效的三角形,针对这个设计测试用例
 * 针对文件上传功能，设计下测试用例
 * 针对网上购物中订单提交的过程，设计测试用例
 * 
 
-## <span id="manage_questions">测试管理问题<span>
+## <a name="manage_questions">测试管理问题<a>
 * 你认为测试经理的工作职责和内容是什么？
 * 说明你作为测试团队的负责人，如何提高测试团队的技术能力？
 * 列举你以往项目测试中遇到的风险以及你如何处理的？
@@ -39,10 +39,9 @@
 * 在开发和测试存在不合作甚至对立的情况下，你如何平衡和协调工作？
 
 
-## <span id="automation_questions">自动化测试问题</span>
+## <a name="automation_questions">自动化测试问题</a>
 
 
-## <span id="perf_questions">性能测试问题</span>
+## <a name="perf_questions">性能测试问题</a>
 
-## <span id="algorithm_questions">算法问题</span>
-## 算法问题
+## <a name="algorithm_questions">算法问题</a>
