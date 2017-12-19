@@ -7,6 +7,7 @@
 1. [测试用例设计问题](#testcase_questions)
 1. [测试管理问题](#manage_questions)
 1. [自动化测试问题](#automation_questions)
+1. [数据库问题](#database_questions)
 1. [性能测试问题](#perf_questions)
 1. [算法问题](#algorithm_questions)
 
@@ -62,6 +63,10 @@
 * 你是否还熟悉其它的自动化测试工具?各自简单的介绍一下?
 
 
+## <a name="database_questions">数据库问题</a>
+
+* 
+
 ## <a name="perf_questions">性能测试问题</a>
 
 * 什么是性能测试?为什么要进行性能测试?
@@ -76,11 +81,10 @@
 * 性能测试中吞吐量是什么?
 * 解释下什么是耐力测试和尖峰测试?
 
-
 ## <a name="system_questions">操作系统问题</a>
 
 * 列出超过10个Linux常用的命令以及其作用?
-
-## <a name="perf_questions">性能测试问题</a>
+* 进程和线程是什么?它们有什么区别和联系?
+* 
 
 ## <a name="algorithm_questions">算法问题</a>
