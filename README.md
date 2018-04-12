@@ -1,4 +1,5 @@
-﻿# 软件测试面试问题
+
+# 软件测试面试问题
 
 本文收录软件测试面试过程中常见的面试题.一些问题是从网上搜罗而来,剔除了不合时宜的;一些则是自己总结的面试题.很多的问题是开放性的,并没有确切的标准答案.
 ## <a name='toc'>目录</a>
@@ -10,7 +11,20 @@
 1. [性能测试问题](#perf_questions)
 1. [数据库问题](#database_questions)
 1. [操作系统问题](#os_questions)
-1. [算法问题](#algorithm_questions)
+1. [算法问题](#algorithm)
+ * [数据结构](#algorithm_datastructure)
+ * [排序](#algorithm_sort)
+ * [其它](#algorithm_other)
+1. [Java面试题](#java)
+ * [基础知识](#java_basic)
+ * [JVM](#java_jvm)
+ * [并发编程](#java_thread)
+ * [JDBC](#java_jdbc)
+ * [Servlet&JSP](#java)
+1. [Spring](#spring)
+ * [Spring MVC](#spring_mvc)
+ * [Srping Boot](#spring_boot)
+1. [Mybatis](#mybatis)
 
 ## <a name="general_questions">常见问题</a>
 
@@ -80,14 +94,44 @@
 * 性能测试中吞吐量是什么?
 * 解释下什么是耐力测试和尖峰测试?
 
-## <a name="database_questions">数据库问题</a>
+## <a name="database_questions">[数据库问题](#toc)</a>
 
-* 
+### MySql
+
+* 一张表,里面有ID自增主键,当insert了17条记录之后,删除了第15,16,17条记录,再把Mysql重启,再insert一条记录,这条记录的ID是18还是15
 
 ## <a name="os_questions">操作系统问题</a>
 
 * 列出超过10个Linux常用的命令以及其作用?
 * 进程和线程是什么?它们有什么区别和联系?
-* 
+*
 
 ## <a name="algorithm_questions">算法问题</a>
+
+
+## <a name="java_questions">Java面试题</a>
+
+### 基础知识
+* 面向对象编程有哪些特性?
+* 访问修饰符public,private，protected以及默认之前的区别
+* 抽象类和接口的异同？
+* Java中的异常有哪几类？分别怎么使用？
+* 常用的集合类有哪些以及各自有什么特点?
+* ArrayList和LinkedList内部的实现大致是怎样的？他们之间的区别和优缺点？
+* 内存溢出是怎么回事？请举几个可能出现内存溢出的场景？
+* ==和equals的区别？
+* hashCode方法的作用是什么？
+* HashMap实现原理，如何保证HashMap的线程安全？
+* Java中一个字符占多少个字节，扩展再问int, long, double占多少字节
+* 创建一个类的实例都有哪些办法？
+* final/finally/finalize的区别？
+* String/StringBuffer/StringBuilder的区别?
+* 什么是java序列化，如何实现java序列化?
+
+### JVM
+* JVM内存结构，为什么需要GC？
+* JVM堆的基本结构
+* JVM的垃圾算法有哪几种？CMS垃圾回收的基本流程？
+* JVM有哪些常用启动参数可以调整，描述几个？
+* 如何查看JVM的内存使用情况？
+* 你常用的JVM配置和调优参数都有哪些？分别什么作用？
